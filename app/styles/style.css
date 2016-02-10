@@ -1,0 +1,179 @@
+
+body{
+	background-attachment: fixed;
+	text-align: left;
+}
+
+
+#lblQuestion {
+	font-size: 24px;
+}
+
+.btn {
+	margin-top: 12px;
+}
+
+#txtAnswer {
+	font-size: 24px;
+}
+
+#txtFeedback {
+	font-size: 24px;
+}
+
+.answerBlock{
+	width:30px;
+	height:30px;
+	border: 1px inset black;
+	display: inline-block;
+	margin-right: 2px;
+}
+
+.noAnswer{
+	background:white;
+}
+
+.rightAnswer{
+    background:green;
+}
+
+.wrongAnswer{
+    background:red;
+}
+
+th {
+	text-align: center;
+	font-weight: bold;
+	vertical-align: baseline;
+}
+
+
+td {
+	vertical-align: middle;
+}
+
+#fringeTable {
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+
+#history {
+	height: 100px; 
+	width: 500px;
+	position: relative;
+    top: 120px;
+    margin-left: 33%;
+
+}
+
+#hPos {
+	position: relative;
+	top:60px;
+	text-align:center;
+	display:none;
+}
+
+#groupPosition {
+	height: 800px; 
+	width: 800px;
+	position: absolute;
+    top: 80%;
+    left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+#btnNextQuestion{
+	position: relative;
+    top: 55px;
+    left: 58%;
+	display: none;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);	
+}
+
+#btnSubmit{
+position: relative;
+   top: 100px;
+    left: 42%;
+	display: none;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#btnStart{
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+	display: block;
+    transform: translate(-50%, -50%);
+}
+
+#lblQuestion{	
+	
+    left:50;
+}
+
+#txtFeedback{
+	
+	top: 320px;
+    left:150px;	
+}
+
+#intro{
+	
+	font-size: 130%;
+	margin-top:100px;
+	text-align:center;
+}
+
+#testTitle{
+
+	font-size: 330%;
+    
+	
+}
+
+
+
+
+#outro{
+	
+	position: absolute;
+	font-size: 130%;
+	margin-left:45%;
+	display:none;
+    margin-top:180px;
+}
+
+#ok{
+	
+	position: absolute;
+	margin-left:45%;
+	display:none;
+    margin-top:200px;
+}
+
+
+
+
+
+#txtAnswer{
+	display: none;
+}
+
+
+#cont{
+	position:absolute;
+	height:100%;
+  width:100%;
+  
+}
+#q{
+	margin-left:38%;
+	margin-top:100px;
+	
+	
+	
+}
