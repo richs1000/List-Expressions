@@ -83,9 +83,31 @@ function QuestionBankModel(_simModel, _numerator, _denominator,_quest,_lengthQ1,
 		
 		if(s==0){
 			
+			var ran= this.getRandomInt(0,2);
+			
+			if(ran==0){
 			this.quest2="What is the result of null xs?";
 			this.answ="true";
+			}
 			
+			else if(ran==1){
+			
+			this.quest2="What is the result of command tl xs?";
+			var tempp=main.getTail();
+			var tt="[";
+			for(var i=0;i<tempp.length;i++){
+				if(this.findValue(tempp[i])){
+					tt=tt+tempp[i]
+					if(i+1!=tempp.length-2)
+						tt=tt+",";
+				}
+			}
+			
+			tt=tt+"]";
+			this.answ=tt;
+			
+			
+		}
 		}
 		else if(s==1){
 			
@@ -104,7 +126,8 @@ function QuestionBankModel(_simModel, _numerator, _denominator,_quest,_lengthQ1,
 			this.answ=main.getHead();
 			
 			
-		}else if(ran==1){
+		}
+		else if(ran==1){
 			
 			this.quest2="What is the result of command tl xs?";
 			var tempp=main.getTail();
