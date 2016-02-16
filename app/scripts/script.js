@@ -69,7 +69,7 @@ base.generateRandomQuestion = function(){
 base.getHead = function(){
 	
 	if(this.arrayQuestion[0]!=null)
-	return "["+this.arrayQuestion[0]+"]";
+	return this.arrayQuestion[0];
 	return null;
 }
 
@@ -104,7 +104,7 @@ base.generateListAnswers = function(){
 	var hdoftail1="";
 	
 	if(tail.length>0){
-		hdoftail1="["+tail[2]+"]";
+		hdoftail1=tail[2];
 		
 	}
 	

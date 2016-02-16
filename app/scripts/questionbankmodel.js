@@ -83,6 +83,7 @@ function QuestionBankModel(_simModel, _numerator, _denominator,_quest,_lengthQ1,
 		
 		if(s==0){
 			
+			
 			this.quest2="What is the result of null xs?";
 			this.answ="true";
 			
@@ -104,7 +105,8 @@ function QuestionBankModel(_simModel, _numerator, _denominator,_quest,_lengthQ1,
 			this.answ=main.getHead();
 			
 			
-		}else if(ran==1){
+		}
+		else if(ran==1){
 			
 			this.quest2="What is the result of command tl xs?";
 			var tempp=main.getTail();
