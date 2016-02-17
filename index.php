@@ -7,39 +7,55 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<link rel="stylesheet" type="text/css" href="app/styles/style.css"/>
 		<link rel="stylesheet" type="text/css" href="app/styles/bootstrap.min.css">
-		<title>Which Node Gets Expanded Next?</title>
+		<title>Programming Language Concepts</title>
 
 	</head>
-	<body>
-		<div class="starter-template">
-			<div class="container">
-				<div class="row">
-					<h3>Contents of Fringe</h3>
-					<div id='fringeTableDiv'>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="form-group">
-						<label id="lblQuestion"></label>
-						<input type="text" class="form-control" placeholder="Answer here" id="txtAnswer">
-						<button id="btnStart" type="button" class="btn btn-primary">Start App</button>
-						<button id="btnSubmit" type="button" class="btn btn-primary" disabled="true">Submit</button>
-						<button id="btnNextQuestion" type="button" class="btn btn-primary" disabled="true">Next Question</button>
-					</div>
-				</div>
+	<body>				
+		<div id="cont">
+			     <p align="center" id="testTitle">List Expressions</p>
+					
+			
+		
+		   
+				
+				
+					
+						
+						<text id="outro">Good Job! You Made It!!</text>
+						<img id="ok" src="Ok.png"></img>
+						<div id="intro"><p>Welcome! Press the "Start App" button to begin the test</p></div>
+						
+						
+						
+						<div id="q">
+						<label class="row" id="lblQuestion"></label>
+						
+						<input class="row" type="text" placeholder="Answer here" id="txtAnswer">
+						
+						
+					
+					
+			
 
 				<div class="row">
 					<div id="txtFeedback">
 					</div>
 				</div>
+				
+				
+				
+				
+				</div>
+				       <button id="btnStart" type="button" class="btn btn-primary">Start App</button>
+						<p><button id="btnSubmit" type="button" class="btn btn-primary" disabled="true">Submit</button>
+						<button id="btnNextQuestion" type="button" class="btn btn-primary" disabled="true">Next Question</button></p>
 
-				<div class="row">
-					<h4>Answer History</h4>
-					<div class='answerHistory'></div>
+				<div class="row" >
+					<h4 id="hPos">Answer History</h4>
+					<div id="history" class='answerHistory'></div>
 				</div>
 
-			</div>
+			
 		</div>
 
 		<script src="https://d1rpkia8qpfj4t.cloudfront.net/js/pipit-0.62.min.js"></script>
@@ -54,6 +70,7 @@
 		<script src="app/scripts/questionbankview.js"></script>
 		<script src="app/scripts/view.js"></script>
 		<script src="app/scripts/controller.js"></script>
-
+		<script src="app/scripts/script.js"></script>
+		<script src="app/scripts/scriptMain.js"></script>
 	</body>
 </html>
